@@ -1,0 +1,21 @@
+print ("Bem-vindo ao jogo!")
+print ("Player 1's escolhe: ")
+player_1 = input()
+print ("Player 2's escolhe: ")
+player_2 = input()
+if player_1 == "Pedra" and player_2 == "Tesoura":
+	print("Player 1 ganhou")
+elif player_1 == "Tesoura" and player_2 == "Pedra":
+	print("Player 2 ganhou")
+elif player_1 == "Pedra" and player_2 == "Papel":
+	print("Player 2 ganhou")
+elif player_1 == "Papel" and player_2 == "Pedra":
+	print("Player 1 ganhou")
+elif player_1 == "Tesoura" and player_2 == "Papel":
+	print("Player 1 ganhou")
+elif player_1 == "Papel" and player_2 == "Tesoura":
+	print("Player 2 ganhou")
+elif player_1 == player_2:
+	print ("É um empate")
+else:
+	print("Coloque um valor aceito")
